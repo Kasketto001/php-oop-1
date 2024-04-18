@@ -48,7 +48,7 @@ echo "Rating: " . $production2->getRating() . "\n";
 
 # BONUS 1 COMMIT EXPLAINS
 
-##Functionalities
+## Functionalities
 
 This project aims to display a list of productions, such as movies or TV series, along with their titles, languages, and ratings. Here's how it works:
 
