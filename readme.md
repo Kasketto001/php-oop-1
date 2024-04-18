@@ -44,7 +44,7 @@ echo "Production 2:\n";
 echo "Title: " . $production2->getTitle() . "\n";
 echo "Language: " . $production2->getLanguage() . "\n";
 echo "Rating: " . $production2->getRating() . "\n";
-
+```
 
 # BONUS 1 COMMIT EXPLAINS
 
