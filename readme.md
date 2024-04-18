@@ -82,3 +82,9 @@ In the `db.php` file, we create instances of the `Genre` class and store them in
 In the HTML output, when iterating through the productions, we also iterate through the genres of each production. We display the name and description of each genre associated with the production. This ensures that all genres associated with a production are correctly displayed in the production list.
 
 With this enhancement, we can now handle productions with multiple genres, providing more detailed information about each production in the list.
+
+
+PS: I'm learning best practices for writing readmes :D
+
+
+    - Kasketto001
