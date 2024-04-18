@@ -61,3 +61,24 @@ This project aims to display a list of productions, such as movies or TV series,
 4. **Bootstrap Styling**: Bootstrap CSS (v5.3.2) is used to enhance the visual appearance of the production list, providing a clean and responsive layout.
 
 
+## Bonus 2: Multiple Genres for Productions
+
+In this project, we've added support for associating multiple genres with each production. Here's how it works:
+
+### Genre Class
+
+The `Genre` class represents a genre with two attributes: `name` and `description`. When creating a genre, we provide its name and a description that explains the genre.
+
+### Production Class
+
+The `Production` class has been updated to accept an array of `Genre` objects in its constructor. This allows a production to be associated with multiple genres. Each production can now have an array of genres, and we can access this array using the `getGenres()` method.
+
+### Data Management
+
+In the `db.php` file, we create instances of the `Genre` class and store them in an array. Then, when creating productions, we pass an array of genres to the production's constructor. This allows us to specify multiple genres for each production.
+
+### Displaying Genres
+
+In the HTML output, when iterating through the productions, we also iterate through the genres of each production. We display the name and description of each genre associated with the production. This ensures that all genres associated with a production are correctly displayed in the production list.
+
+With this enhancement, we can now handle productions with multiple genres, providing more detailed information about each production in the list.

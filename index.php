@@ -1,8 +1,7 @@
 <?php
 
 
-// Include Production class, its constructor, and its functions 🛠️
-include_once "./Models/Production.php";
+// Include the Archive ( it's just a primitive database :P )
 include_once "db.php";
 
 
@@ -39,6 +38,10 @@ include_once "db.php";
                             <strong>Title:</strong> <?php echo $production->getTitle(); ?><br>
                             <strong>Language:</strong> <?php echo $production->getLanguage(); ?><br>
                             <strong>Rating:</strong> <?php echo $production->getRating(); ?><br>
+                            <strong>Genres:</strong> 
+                            <?php foreach ($production->getGenres() as $genre): ?>
+                                <?php echo $genre->getName(); ?> - <?php echo $genre->getDescription(); ?><br>
+                            <?php endforeach; ?>
                         </li>
                     <?php endforeach; ?>
                 </ul>
