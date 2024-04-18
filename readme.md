@@ -1,6 +1,6 @@
 # Usage of Production Class Functions in PHP
 
-<img src="https://skillicons.dev/icons?i=git,kubernetes,docker,c,vim" />
+<img src="https://skillicons.dev/icons?i=php" />
 
 
 This repository contains a PHP script (`index.php`) that demonstrates the usage of the `Production` class functions. The `Production` class represents various productions such as movies or TV series, with properties for title, language, and rating.
