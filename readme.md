@@ -1,6 +1,8 @@
 # Usage of Production Class Functions in PHP
 
-<img src="https://skillicons.dev/icons?i=php" />
+
+## LANGUAGES & FRAMEWORKS
+<img src="https://skillicons.dev/icons?i=php,bootstrap,html" />
 
 
 This repository contains a PHP script (`index.php`) that demonstrates the usage of the `Production` class functions. The `Production` class represents various productions such as movies or TV series, with properties for title, language, and rating.
@@ -42,3 +44,20 @@ echo "Production 2:\n";
 echo "Title: " . $production2->getTitle() . "\n";
 echo "Language: " . $production2->getLanguage() . "\n";
 echo "Rating: " . $production2->getRating() . "\n";
+
+
+# BONUS 1 COMMIT EXPLAINS
+
+##Functionalities
+
+This project aims to display a list of productions, such as movies or TV series, along with their titles, languages, and ratings. Here's how it works:
+
+1. **Data Management**: The `db.php` file contains an array of `Production` objects, each representing a production with its title, language, and rating.
+
+2. **Production Class**: The `Production` class, defined in `Models/Production.php`, encapsulates the properties and behaviors of a production. It includes a constructor to initialize the production with its title, language, and rating, as well as getter methods to retrieve these properties.
+
+3. **Displaying Productions**: The `index.php` file utilizes the `Production` class and the data from `db.php` to dynamically generate HTML content displaying the list of productions. It loops through the productions array and prints each production's details using Bootstrap for styling.
+
+4. **Bootstrap Styling**: Bootstrap CSS (v5.3.2) is used to enhance the visual appearance of the production list, providing a clean and responsive layout.
+
+
